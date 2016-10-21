@@ -22,10 +22,14 @@ public class Boletin5_4 {
         pers1 = Integer.parseInt(JOptionPane.showInputDialog("Escriba un numero: "));
         pers2 = Integer.parseInt(JOptionPane.showInputDialog("Escriba un numero: "));
 
-        if(pers1 > pers2)
-           System.out.println("Manolo pesa: "+ pers1); 
-        else
+        if(pers1 > pers2){
+           System.out.println("Manolo pesa: "+ pers1 +"Kg"); 
+           System.out.println("La diferencia es de: "+ (pers1 - pers2) +"Kg");
+        }
+        else{
             System.out.println("Jose pesa: "+ pers2);
+            System.out.println("La diferencia es de: "+ (pers2 - pers1) +"Kg");
+        }
     }
     
 }
