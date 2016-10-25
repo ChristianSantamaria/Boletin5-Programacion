@@ -19,16 +19,21 @@ public class Boletin5_4 {
     public static void main(String[] args) {
         // 4
         int pers1, pers2;
-        pers1 = Integer.parseInt(JOptionPane.showInputDialog("Escriba un numero: "));
-        pers2 = Integer.parseInt(JOptionPane.showInputDialog("Escriba un numero: "));
+        String nom1 = "Manolo";
+        String nom2 = "Juan";
+        pers1 = Integer.parseInt(JOptionPane.showInputDialog("Escriba el peso de Manolo: "));
+        pers2 = Integer.parseInt(JOptionPane.showInputDialog("Escriba el peso de Juan: "));
 
         if(pers1 > pers2){
-           System.out.println("Manolo pesa: "+ pers1 +"Kg"); 
+           System.out.println(nom1 + " pesa: "+ pers1 +"Kg"); 
            System.out.println("La diferencia es de: "+ (pers1 - pers2) +"Kg");
         }
-        else{
-            System.out.println("Jose pesa: "+ pers2);
+        if else(pers2 > pers1){
+            System.out.println(nom2 +" pesa: "+ pers2);
             System.out.println("La diferencia es de: "+ (pers2 - pers1) +"Kg");
+        }
+        else{
+            System.out.println(nom1 + "pesa igual que " + nom2);
         }
     }
     
