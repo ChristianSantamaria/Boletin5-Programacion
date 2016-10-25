@@ -22,10 +22,10 @@ public class Boletin5_2 {
         sho1 = Short.parseShort(JOptionPane.showInputDialog("Escriba un numero: "));
         sho2 = Short.parseShort(JOptionPane.showInputDialog("Escriba un numero: "));
 
-        if (sho1 > sho2)
+        if (sho1 >= sho2)
             System.out.println(sho1 - sho2);
-        else
-            System.out.println(sho1 + sho2);
+        
+        System.out.println(sho1 + sho2);
     }
     
 }
