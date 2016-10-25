@@ -20,9 +20,9 @@ public class Boletin5_7 {
         // TODO code application logic here
         int opcion;
         System.out.println("Escoge la opcion que precises:");
-        System.out.println("- Cuadrado");
-        System.out.println("- Triangulo");
-        System.out.println("- Circulo");
+        System.out.println("- Cuadrado (1)");
+        System.out.println("- Triangulo (2)");
+        System.out.println("- Circulo (3)");
         opcion = Integer.parseInt(JOptionPane.showInputDialog("Elija la opcion deseada: "));
         
         switch (opcion){
